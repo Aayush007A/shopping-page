@@ -1,0 +1,85 @@
+import type { Product } from "./types";
+
+export const categories = [
+  "All",
+  "Apparel",
+  "Electronics",
+  "Home",
+  "Books",
+  "Toys",
+];
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "Classic Tee",
+    description: "Soft cotton t-shirt in multiple colors.",
+    price: 25,
+    image: "👕",
+    category: "Apparel",
+  },
+  {
+    id: "2",
+    name: "Bluetooth Headphones",
+    description: "Wireless over-ear headphones with noise cancellation.",
+    price: 120,
+    image: "🎧",
+    category: "Electronics",
+  },
+  {
+    id: "3",
+    name: "Espresso Maker",
+    description: "Brew café-quality espresso at home.",
+    price: 89,
+    image: "☕",
+    category: "Home",
+  },
+  {
+    id: "4",
+    name: "Mystery Novel",
+    description: "A thrilling page-turner for your next read.",
+    price: 15,
+    image: "📚",
+    category: "Books",
+  },
+  {
+    id: "5",
+    name: "Building Blocks Set",
+    description: "Creative fun for kids and adults alike.",
+    price: 35,
+    image: "🧱",
+    category: "Toys",
+  },
+  {
+    id: "6",
+    name: "Smart Watch",
+    description: "Track your fitness and notifications on the go.",
+    price: 199,
+    image: "⌚",
+    category: "Electronics",
+  },
+  {
+    id: "7",
+    name: "Throw Pillow",
+    description: "Add comfort and style to your living room.",
+    price: 22,
+    image: "🛋️",
+    category: "Home",
+  },
+  {
+    id: "8",
+    name: "Graphic Novel",
+    description: "Stunning visuals and gripping story.",
+    price: 18,
+    image: "📖",
+    category: "Books",
+  },
+  {
+    id: "9",
+    name: "Plush Bear",
+    description: "Cuddly companion for all ages.",
+    price: 20,
+    image: "🧸",
+    category: "Toys",
+  },
+];
